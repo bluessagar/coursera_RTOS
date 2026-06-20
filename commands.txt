@@ -1,0 +1,6 @@
+
+
+
+logger "[Course:1] [Assignment:1] $(uname -a)"
+./main
+journalctl | grep main > log1.txt

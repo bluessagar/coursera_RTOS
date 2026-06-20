@@ -1,0 +1,207 @@
+Jun 13 22:52:25 raspberrypi sudo[2468]:       pi : TTY=pts/9 ; PWD=/home/pi/RTES/three/rtc ; USER=root ; COMMAND=./pthread312
+Jun 13 22:52:25 raspberrypi pthread312[2499]: [COURSE:1][ASSIGNMENT:3] Linux raspberrypi 6.18.33+rpt-rpi-v7 #1 SMP Raspbian 1:6.18.33-1+rpt1 (2026-06-01) armv7l GNU/Linux
+Jun 13 22:52:25 raspberrypi pthread312[2499]: Before adjustments to scheduling policy:
+Jun 13 22:52:25 raspberrypi pthread312[2499]: Pthread Policy is SCHED_OTHER
+Jun 13 22:52:25 raspberrypi pthread312[2499]: After adjustments to scheduling policy:
+Jun 13 22:52:25 raspberrypi pthread312[2499]: Pthread Policy is SCHED_FIFO
+Jun 13 22:52:25 raspberrypi pthread312[2499]: 
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10087, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10054, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10063, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10058, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10070, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10104, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10110, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10116, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10119, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10091, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10088, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10155, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10155, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10107, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10110, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10095, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10093, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10100, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10155, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10086, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10081, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10096, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10062, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10062, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10064, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10064, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10065, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10077, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10098, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10073, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10070, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10065, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10079, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10058, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10074, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10117, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10067, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10068, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10056, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10058, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10093, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10056, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10099, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10098, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10112, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10068, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10129, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10159, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10095, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10129, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10115, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10101, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10106, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10100, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10087, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10100, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10055, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10055, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10057, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10061, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10077, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10068, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10063, sec=0.000000000
+Jun 13 22:52:25 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10063, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10058, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10055, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10056, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10067, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10066, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10063, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10057, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10064, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10126, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10059, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10074, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10064, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10056, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10060, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10058, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10074, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10055, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10055, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10081, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10086, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10071, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10200, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10081, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10130, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK clock DT seconds = 0, msec=0, usec=10, nsec=10138, sec=0.000000000
+Jun 13 22:52:26 raspberrypi pthread312[2499]: MY_CLOCK delay error = 0, nanoseconds = 0
