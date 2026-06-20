@@ -108,6 +108,8 @@
 #include <sys/sysinfo.h>
 #include <errno.h>
 
+#include <sys/utsname.h>  // to print the sys logs
+
 #include <signal.h>
 
 #define USEC_PER_MSEC (1000)
@@ -119,10 +121,10 @@
 
 #define NUM_THREADS (3)
 
-#define COURSE 2
-#define ASSIGNMENT 1
 #define MAX_STRING_LEN 250
 #define LCM_PERIOD 30
+
+// Assignment 1: Timing Diagram Emulation - Non-Harmonic, Below LUB, Feasible, Margin (Safe)
 
 // Of the available user space clocks, CLOCK_MONONTONIC_RAW is typically most precise and not subject to
 // updates from external timer adjustments
@@ -171,52 +173,6 @@ typedef enum syslogState
     SYSLOG_PERROR
 } State;
 
-/*
- * void syslogPrint(const char *data)
- * @desc: A simple function call for our syslog output
- * @param data: Holds a string we are printing onto syslog
- * @param flag: boolean flag to dictate whther to print data or uname -a command
- * @return: None
- */
-void syslogPrint(const char *data, const State flag)
-{
-    char data_t[MAX_STRING_LEN];
-    sprintf(data_t, "[COURSE:%d][ASSIGNMENT:%d]", COURSE, ASSIGNMENT);
-    openlog(data_t, LOG_NDELAY, LOG_DAEMON);
-
-    switch (flag)
-    {
-    case SYSLOG_UNAME:
-    {
-        FILE *fp;
-        char var[MAX_STRING_LEN];
-
-        // Force syslog to print uname -a with openlog identifier
-        // by copying output of uname to char array
-
-        fp = popen("uname -a", "r");
-        while (fgets(var, sizeof(var), fp) != NULL)
-        {
-        };
-        pclose(fp);
-        syslog(LOG_DEBUG, var);
-    }
-    break;
-    case SYSLOG_DATA:
-
-        syslog(LOG_DEBUG, data);
-        break;
-    case SYSLOG_PERROR:
-
-        syslog(LOG_PERROR, data);
-        break;
-    default:
-        break;
-    }
-
-    closelog();
-}
-
 // For background on high resolution time-stamps and clocks:
 //
 // 1) https://www.kernel.org/doc/html/latest/core-api/timekeeping.html
@@ -256,6 +212,9 @@ static inline unsigned ccnt_read (void)
 
 void main(void)
 {
+    struct utsname buf;
+    uname(&buf);
+
     char data[MAX_STRING_LEN];
     struct timespec current_time_val, current_time_res;
     double current_realtime, current_realtime_res;
@@ -278,7 +237,7 @@ void main(void)
 
     // Print out uname on terminal
     system("echo > /dev/null | sudo tee /var/log/syslog");
-    syslogPrint(NULL, SYSLOG_UNAME);
+    syslog(LOG_INFO,"[COURSE:2][ASSIGNMENT:1] %s %s %s %s %s GNU/Linux",buf.sysname,buf.nodename,buf.release,buf.version,buf.machine);
 
     printf("Starting High Rate Sequencer Demo\n");
     clock_gettime(MY_CLOCK_TYPE, &start_time_val); start_realtime=realtime(&start_time_val);
@@ -536,7 +495,7 @@ void *Service_1(void *threadp)
         clock_gettime(MY_CLOCK_TYPE, &current_time_val); current_realtime=realtime(&current_time_val);
         current_realtime = realtime(&current_time_val);
         sprintf(data, "Thread 1 start %llu @ sec=%6.9lf on core %d\n", S1Cnt, current_realtime - start_realtime, sched_getcpu());
-        syslogPrint(data, SYSLOG_DATA);
+        syslog(LOG_INFO,"[COURSE:2][ASSIGNMENT:1] %s ",data);
     }
 
     // Resource shutdown here
@@ -576,7 +535,7 @@ void *Service_2(void *threadp)
         clock_gettime(MY_CLOCK_TYPE, &current_time_val); current_realtime=realtime(&current_time_val);
         current_realtime = realtime(&current_time_val);
         sprintf(data, "Thread 2 start %llu @ sec=%6.9lf on core %d\n", S2Cnt, current_realtime - start_realtime, sched_getcpu());
-        syslogPrint(data, SYSLOG_DATA);    
+        syslog(LOG_INFO,"[COURSE:2][ASSIGNMENT:1] %s ",data);
     }
     // Resource shutdown here
     pthread_exit((void *)0);
@@ -614,7 +573,7 @@ void *Service_3(void *threadp)
         clock_gettime(MY_CLOCK_TYPE, &current_time_val); current_realtime=realtime(&current_time_val);
         current_realtime = realtime(&current_time_val);
         sprintf(data, "Thread 3 start %llu @ sec=%6.9lf on core %d\n", S3Cnt, current_realtime - start_realtime, sched_getcpu());
-        syslogPrint(data, SYSLOG_DATA);    
+        syslog(LOG_INFO,"[COURSE:2][ASSIGNMENT:1] %s ",data);
     }
     // Resource shutdown here
     pthread_exit((void *)0);

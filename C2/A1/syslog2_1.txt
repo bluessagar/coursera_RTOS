@@ -11,6 +11,7 @@ Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 2 start 2 @ sec=0.1
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 1 start 7 @ sec=0.130905833 on core 2
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 1 start 8 @ sec=0.150906962 on core 2
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 3 start 2 @ sec=0.160915759 on core 2
+
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 1 start 9 @ sec=0.170911907 on core 2
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 1 start 10 @ sec=0.190906444 on core 2
 Jun  5 03:20:56 raspberrypi [COURSE:2][ASSIGNMENT:1]: Thread 1 start 11 @ sec=0.210907851 on core 2

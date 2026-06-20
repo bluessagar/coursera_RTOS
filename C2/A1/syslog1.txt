@@ -1,0 +1,24 @@
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Linux raspberrypi 6.18.33+rpt-rpi-v7 #1 SMP Raspbian 1:6.18.33-1+rpt1 (2026-06-01) armv7l GNU/Linux
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 1 @ sec=0.012606250 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 2 start 1 @ sec=0.012607656 on core 3
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 3 start 1 @ sec=0.012935677 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 2 @ sec=0.032498333 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 3 @ sec=0.052466718 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 4 @ sec=0.072465000 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 5 @ sec=0.092456718 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 2 start 2 @ sec=0.112472291 on core 3
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 6 @ sec=0.112472239 on core 2
+Jun 21 00:24:22 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 7 @ sec=0.132528437 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 8 @ sec=0.152470729 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 3 start 2 @ sec=0.162478333 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 9 @ sec=0.172466041 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 10 @ sec=0.192473125 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 11 @ sec=0.212459322 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 2 start 3 @ sec=0.212462812 on core 3
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 12 @ sec=0.232453333 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 13 @ sec=0.252461874 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 14 @ sec=0.272461041 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 15 @ sec=0.292455364 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 1 start 16 @ sec=0.302541041 on core 2
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 2 start 4 @ sec=0.302546145 on core 3
+Jun 21 00:24:23 raspberrypi seqgen3[6846]: [COURSE:2][ASSIGNMENT:1] Thread 3 start 3 @ sec=0.304324687 on core 2
