@@ -1,6 +1,0 @@
-Jun 17 08:28:11 raspberrypi sudo[8744]:       pi : TTY=pts/9 ; PWD=/home/pi/RTES/m4 ; USER=root ; COMMAND=./thread_affinity
-Jun 17 08:28:11 raspberrypi thread_affinity[8774]: [COURSE:1][ASSIGNMENT:4] Linux raspberrypi 6.18.33+rpt-rpi-v7 #1 SMP Raspbian 1:6.18.33-1+rpt1 (2026-06-01) armv7l GNU/Linux
-Jun 17 08:30:08 raspberrypi sudo[9147]:       pi : TTY=pts/9 ; PWD=/home/pi/RTES/m4 ; USER=root ; COMMAND=./thread_affinity
-Jun 17 08:30:08 raspberrypi thread_affinity[9150]: [COURSE:1][ASSIGNMENT:4] Linux raspberrypi 6.18.33+rpt-rpi-v7 #1 SMP Raspbian 1:6.18.33-1+rpt1 (2026-06-01) armv7l GNU/Linux
-Jun 17 08:43:55 raspberrypi sudo[9526]:       pi : TTY=pts/9 ; PWD=/home/pi/RTES/m4 ; USER=root ; COMMAND=./thread_affinity
-Jun 17 08:43:55 raspberrypi thread_affinity[9529]: [COURSE:1][ASSIGNMENT:4] Linux raspberrypi 6.18.33+rpt-rpi-v7 #1 SMP Raspbian 1:6.18.33-1+rpt1 (2026-06-01) armv7l GNU/Linux
